@@ -1,4 +1,5 @@
 #!/bin/bash
+#This shell script will loop for 5 times
 valid=true
 count=1
 while [ $valid ]
@@ -9,4 +10,5 @@ do
 		break
 	fi
 	((count++))
+
 done
